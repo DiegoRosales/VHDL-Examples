@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=contador_1bit
+
+[Library]
+contador_1bit=.\contador_1bit.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Xilinx SPARTAN3E
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+contador_1bit=.
+Active_lib=SPARTAN3E
+xilinxun=SPARTAN3E
+UnlinkedDesignLibrary=SPARTAN3E
+DESIGNS=SPARTAN3E
+
+[Files]
+/contador_1bit.vhd=-1
+/contador_1bit.awc=-1
+
+[Files.Data]
+.\src\contador_1bit.vhd=VHDL Source Code
+.\src\contador_1bit.awc=Accelerated Waveform Configuration
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=contador_1bit|contador_1bit|0 
+ShowHide=ShowTopLevel
+Selected=

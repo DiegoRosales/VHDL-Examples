@@ -1,0 +1,85 @@
+V 000045 55 1377          1381098614883 FDCE
+(_unit VHDL (fdce 0 4 (fdce 0 10 ))
+	(_version v98)
+	(_time 1381098614884 2013.10.06 17:30:14)
+	(_source (\./src/FDCE.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 57035254540000415354410d025154515251515153)
+	(_entity
+		(_time 1381098614881)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_generic (_internal INIT ~extieee.std_logic_1164.STD_LOGIC 0 5 \'0'\ (_entity ((i 2)))))
+		(_port (_internal CE ~extieee.std_logic_1164.STD_LOGIC 0 6 (_entity (_in ))))
+		(_port (_internal CLR ~extieee.std_logic_1164.STD_LOGIC 0 6 (_entity (_in ))))
+		(_port (_internal C ~extieee.std_logic_1164.STD_LOGIC 0 6 (_entity (_in )(_event))))
+		(_port (_internal D ~extieee.std_logic_1164.STD_LOGIC 0 6 (_entity (_in ))))
+		(_port (_internal Q ~extieee.std_logic_1164.STD_LOGIC 0 7 (_entity (_out ))))
+		(_signal (_internal temp ~extieee.std_logic_1164.STD_LOGIC 0 11 (_architecture (_uni (_code 2)))))
+		(_process
+			(line__13(_architecture 0 0 13 (_process (_simple)(_target(5))(_sensitivity(1)(2))(_read(0)(3)))))
+			(line__21(_architecture 1 0 21 (_assignment (_simple)(_alias((Q)(temp)))(_simpleassign BUF)(_target(4))(_sensitivity(5)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . FDCE 3 -1
+	)
+)
+V 000052 55 1982          1381099424013 FDCE_Xilinx
+(_unit VHDL (fdce_xilinx 0 7 (fdce_xilinx 0 15 ))
+	(_version v98)
+	(_time 1381099424014 2013.10.06 17:43:44)
+	(_source (\./src/FDCE_Xilinx.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(unisim(VCOMPONENTS)))
+	(_code 01075407045656170507475a580708075207080754)
+	(_entity
+		(_time 1381099424011)
+		(_use (std(standard))(ieee(std_logic_1164))(unisim(VCOMPONENTS)))
+	)
+	(_component
+		(.unisim.VCOMPONENTS.FDCE
+			(_object
+				(_generic (_internal INIT ~extSTD.STANDARD.BIT 0 2295 (_entity -1 ((i 0)))))
+				(_port (_internal Q ~extieee.std_logic_1164.STD_ULOGIC 0 2298 (_entity (_out ))))
+				(_port (_internal C ~extieee.std_logic_1164.STD_ULOGIC 0 2299 (_entity (_in ))))
+				(_port (_internal CE ~extieee.std_logic_1164.STD_ULOGIC 0 2300 (_entity (_in ))))
+				(_port (_internal CLR ~extieee.std_logic_1164.STD_ULOGIC 0 2301 (_entity (_in ))))
+				(_port (_internal D ~extieee.std_logic_1164.STD_ULOGIC 0 2302 (_entity (_in ))))
+			)
+		)
+	)
+	(_instantiation FlipFlop 0 18 (_component .unisim.VCOMPONENTS.FDCE )
+		(_generic
+			((INIT)((i 0)))
+		)
+		(_port
+			((Q)(Q))
+			((C)(CK))
+			((CE)(CE))
+			((CLR)(CLR))
+			((D)(D))
+		)
+		(_use (_entity unisim FDCE)
+			(_generic
+				((INIT)((i 0)))
+			)
+		)
+	)
+	(_object
+		(_port (_internal CK ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in ))))
+		(_port (_internal D ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in ))))
+		(_port (_internal CE ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in ))))
+		(_port (_internal CLR ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in ))))
+		(_port (_internal Q ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+)

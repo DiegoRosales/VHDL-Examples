@@ -1,0 +1,12 @@
+[Version]
+Version=9.1
+[Designs]
+contador_1bit=.\contador_1bit\contador_1bit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+contador_1bit=1

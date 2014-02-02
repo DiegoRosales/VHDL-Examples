@@ -1,0 +1,5 @@
+7
+~E 1 "./src/FDCE.vhd" 4 FDCE
+~A 1 "./src/FDCE.vhd" 10 FDCE
+~E 1 "./src/FDCE_Xilinx.vhd" 7 FDCE_Xilinx
+~A 1 "./src/FDCE_Xilinx.vhd" 15 FDCE_Xilinx

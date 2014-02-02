@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: C:\My_Designs\Blog\Contador_1bit\Contador_1bit\contador_1bit\src\contador_1bit.vhd" 
+MESSAGE "Compile Entity "contador_1bit"" 
+MESSAGE "Compile Architecture "contador_1bit" of Entity "contador_1bit"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => contador_1bit" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

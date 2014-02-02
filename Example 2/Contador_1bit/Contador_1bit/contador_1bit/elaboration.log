@@ -1,0 +1,36 @@
+Active-HDL 9.1.2354.4209  2013-10-10 13:27:06
+
+Elaboration top modules:
+Architecture                  contador_1bit(contador_1bit)
+
+
+------------------------------------------------------------------------------------------------------
+Entity        | Architecture  | Library       | Info | Compiler Version         | Compilation Options
+------------------------------------------------------------------------------------------------------
+contador_1bit | contador_1bit | contador_1bit |      | 9.1.2354.4209  (Windows) | -O3
+FDCE          | fdce_v        | unisim        |      | 9.1.2354.4209  (Windows) | 
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+VHDL Package                  | Library       | Info | Compiler Version         | Compilation Options
+------------------------------------------------------------------------------------------------------
+standard                      | std           |      |                          | <unavailable>
+TEXTIO                        | std           |      | 9.1.2354.4209  (Windows) |  -2008
+std_logic_1164                | ieee          |      | 9.1.2354.4209  (Windows) |  -2008
+VCOMPONENTS                   | unisim        |      | 9.1.2354.4209  (Windows) | 
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Library                       | Comment
+------------------------------------------------------------------------------------------------------
+contador_1bit                 | None
+ieee                          | Standard IEEE packages library
+std                           | Standard VHDL library
+unisim                        | XILINX ISE 13.3, UNISIM VHDL LIBRARY
+------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+contador_1bit contador_1bit contador_1bit
+
+
+The performance of simulation is reduced. Version Student Edition

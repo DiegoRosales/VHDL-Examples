@@ -1,0 +1,1 @@
+-w -s "D:\Users\Diego\Documents\FPGA\Active HDL\RAM\RAM\library.cfg"  -j "D:\Users\Diego\Documents\FPGA\Active HDL\RAM\RAM\RAM\projlib.cfg"  -d "D:\Users\Diego\Documents\FPGA\Active HDL\RAM\RAM\RAM\compile"   -work RAM  -O3 -e 100 -2002 "D:\Users\Diego\Documents\FPGA\Active HDL\RAM\RAM\RAM\src\RAM Asincrona.vhd"

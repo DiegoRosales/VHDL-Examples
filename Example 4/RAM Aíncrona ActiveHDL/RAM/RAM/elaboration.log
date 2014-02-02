@@ -1,0 +1,34 @@
+Active-HDL 9.1.2354.4209  2013-10-27 12:34:06
+
+Elaboration top modules:
+Architecture                  asinc(asinc)
+
+
+------------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version         | Compilation Options
+------------------------------------------------------------------------------------------
+asinc    | asinc        | RAM     |      | 9.1.2354.4209  (Windows) | -O3
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version         | Compilation Options
+------------------------------------------------------------------------------------------
+standard                | std     |      |                          | <unavailable>
+TEXTIO                  | std     |      | 9.1.2354.4209  (Windows) |  -2008
+std_logic_1164          | ieee    |      | 9.1.2354.4209  (Windows) |  -2008
+NUMERIC_STD             | ieee    |      | 9.1.2354.4209  (Windows) |  -2008
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                 | Comment
+------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+RAM                     | None
+std                     | Standard VHDL library
+------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+asinc asinc asinc
+
+
+The performance of simulation is reduced. Version Student Edition

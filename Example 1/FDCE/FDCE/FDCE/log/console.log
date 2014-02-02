@@ -1,0 +1,265 @@
+# Design: Design FDCE already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -work FDCE -2002  $dsn/src/FDCE.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\FDCE.vhd
+# Compile Entity "FDCE"
+# Compile Architecture "FDCE" of Entity "FDCE"
+# Top-level unit(s) detected:
+# Entity => FDCE
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+FDCE FDCE FDCE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5749 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:30 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE (FDCE)
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5749 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:32 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE (FDCE)
+# KERNEL: Signal '/FDCE/C' has already been traced
+# KERNEL: Signal '/FDCE/CE' has already been traced
+# KERNEL: Signal '/FDCE/CLR' has already been traced
+# KERNEL: Signal '/FDCE/D' has already been traced
+# KERNEL: Signal '/FDCE/Q' has already been traced
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5749 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:32 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE (FDCE)
+# KERNEL: Signal '/FDCE/C' has already been traced
+# KERNEL: Signal '/FDCE/CE' has already been traced
+# KERNEL: Signal '/FDCE/CLR' has already been traced
+# KERNEL: Signal '/FDCE/D' has already been traced
+# KERNEL: Signal '/FDCE/Q' has already been traced
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5749 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:33 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE (FDCE)
+# KERNEL: Signal '/FDCE/C' has already been traced
+# KERNEL: Signal '/FDCE/CE' has already been traced
+# KERNEL: Signal '/FDCE/CLR' has already been traced
+# KERNEL: Signal '/FDCE/D' has already been traced
+# KERNEL: Signal '/FDCE/Q' has already been traced
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+acom -O3 -work FDCE -2002  $dsn/src/FDCE_Xilinx.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\FDCE_Xilinx.vhd
+# Compile Entity "FDCE_Xilinx"
+# Compile Architecture "FDCE_Xilinx" of Entity "FDCE_Xilinx"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim -O5 +access +r +m+FDCE_Xilinx FDCE_Xilinx FDCE_Xilinx
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6941 kB (elbread=2047 elab2=4802 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:44 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE_Xilinx (FDCE_Xilinx)
+# 1 signal(s) traced.
+# 4 signal(s) traced.
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6941 kB (elbread=2047 elab2=4802 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:45 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE_Xilinx (FDCE_Xilinx)
+# KERNEL: Signal '/FDCE_Xilinx/CK' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/D' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CE' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CLR' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/Q' has already been traced
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6941 kB (elbread=2047 elab2=4802 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:46 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE_Xilinx (FDCE_Xilinx)
+# KERNEL: Signal '/FDCE_Xilinx/CK' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/D' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CE' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CLR' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/Q' has already been traced
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6941 kB (elbread=2047 elab2=4802 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\wave.asdb
+#  05:46 p.m., domingo, 06 de octubre de 2013
+#  Simulation has been initialized
+#  Selected Top-Level: FDCE_Xilinx (FDCE_Xilinx)
+# KERNEL: Signal '/FDCE_Xilinx/CK' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/D' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CE' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/CLR' has already been traced
+# KERNEL: Signal '/FDCE_Xilinx/Q' has already been traced
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+# Adding file c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\FDCE_Xilinx.awc ... Done
+#  Simulation has been stopped

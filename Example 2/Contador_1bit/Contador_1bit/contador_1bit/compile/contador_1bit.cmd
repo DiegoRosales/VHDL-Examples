@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\Blog\Contador_1bit\Contador_1bit\library.cfg"  -j "C:\My_Designs\Blog\Contador_1bit\Contador_1bit\contador_1bit\projlib.cfg"  -d "C:\My_Designs\Blog\Contador_1bit\Contador_1bit\contador_1bit\compile"   -work contador_1bit  -O3 -e 100 -o -2002 "C:\My_Designs\Blog\Contador_1bit\Contador_1bit\contador_1bit\src\contador_1bit.vhd"

@@ -1,0 +1,25 @@
+timestamp=1381429583398
+
+[contador_1bit]
+A/contador_1bit=21|./src/contador_1bit.vhd|14|1*0
+BinI32/contador_1bit=3*0
+I=0*509
+I/contador_1bit=0*1087
+M=11|0|v98|1381429583133|./src/contador_1bit.vhd|0*158*0x2eed50049bd21c31cb780fe02cb75f5731f91f97|0*422*0xab32bc1a2daf049573e14469f634e0e6
+M/contador_1bit=21|0|v98|1381429583136|./src/contador_1bit.vhd|0*680*0xa2f76f9c759631b2cc4827ef6ee605d4e3c343a5|0*983*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/contador_1bit.vhd|7
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/contador_1bit=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=5
+Version=73
+
+[~MFT]
+0=6|0contador_1bit.mgf|1087|0
+1=0|1contador_1bit.mgf|0|0
+3=0|3contador_1bit.mgf|0|0
+
+[~U]
+contador_1bit=11|0*0|
+

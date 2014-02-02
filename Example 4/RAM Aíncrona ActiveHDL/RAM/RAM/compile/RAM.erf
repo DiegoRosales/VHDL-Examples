@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: D:\Users\Diego\Documents\FPGA\Active HDL\RAM\RAM\RAM\src\RAM Asincrona.vhd" 
+MESSAGE "Compile Entity "asinc"" 
+MESSAGE "Compile Architecture "asinc" of Entity "asinc"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

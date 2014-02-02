@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\Blog\FDCE\FDCE\FDCE\src\FDCE_Xilinx.vhd" 
+MESSAGE "Compile Entity "FDCE_Xilinx"" 
+MESSAGE "Compile Architecture "FDCE_Xilinx" of Entity "FDCE_Xilinx"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

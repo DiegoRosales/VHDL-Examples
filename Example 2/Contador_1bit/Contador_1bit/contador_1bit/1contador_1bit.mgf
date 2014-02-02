@@ -1,0 +1,66 @@
+V 000054 55 2359          1381429583137 contador_1bit
+(_unit VHDL (contador_1bit 0 7 (contador_1bit 0 14 ))
+	(_version v98)
+	(_time 1381429583138 2013.10.10 13:26:23)
+	(_source (\./src/contador_1bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(unisim(VCOMPONENTS)))
+	(_code 194a1a1e464e180e1c1708434c1f4f1e1b1c4f1a18)
+	(_entity
+		(_time 1381429583134)
+		(_use (std(standard))(ieee(std_logic_1164))(unisim(VCOMPONENTS)))
+	)
+	(_component
+		(.unisim.VCOMPONENTS.FDCE
+			(_object
+				(_generic (_internal INIT ~extSTD.STANDARD.BIT 0 2295 (_entity -1 ((i 0)))))
+				(_port (_internal Q ~extieee.std_logic_1164.STD_ULOGIC 0 2298 (_entity (_out ))))
+				(_port (_internal C ~extieee.std_logic_1164.STD_ULOGIC 0 2299 (_entity (_in ))))
+				(_port (_internal CE ~extieee.std_logic_1164.STD_ULOGIC 0 2300 (_entity (_in ))))
+				(_port (_internal CLR ~extieee.std_logic_1164.STD_ULOGIC 0 2301 (_entity (_in ))))
+				(_port (_internal D ~extieee.std_logic_1164.STD_ULOGIC 0 2302 (_entity (_in ))))
+			)
+		)
+	)
+	(_instantiation bit0 0 19 (_component .unisim.VCOMPONENTS.FDCE )
+		(_generic
+			((INIT)((i 0)))
+		)
+		(_port
+			((Q)(temp_Q))
+			((C)(CK1))
+			((CE)((i 3)))
+			((CLR)((i 2)))
+			((D)(notQ))
+		)
+		(_use (_entity unisim FDCE)
+			(_generic
+				((INIT)((i 0)))
+			)
+			(_port
+				((Q)(Q))
+				((C)(C))
+				((CE)(CE))
+				((CLR)(CLR))
+				((D)(D))
+			)
+		)
+	)
+	(_object
+		(_port (_internal CK1 ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in ))))
+		(_port (_internal CK2 ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_signal (_internal notQ ~extieee.std_logic_1164.STD_LOGIC 0 16 (_architecture (_uni ))))
+		(_signal (_internal temp_Q ~extieee.std_logic_1164.STD_LOGIC 0 16 (_architecture (_uni ))))
+		(_process
+			(line__22(_architecture 0 0 22 (_assignment (_simple)(_alias((notQ)(temp_Q)))(_simpleassign "not")(_target(2))(_sensitivity(3)))))
+			(line__23(_architecture 1 0 23 (_assignment (_simple)(_alias((CK2)(temp_Q)))(_simpleassign BUF)(_target(1))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . contador_1bit 2 -1
+	)
+)

@@ -1,0 +1,36 @@
+Active-HDL 9.1.2354.4209  2013-10-06 17:46:26
+
+Elaboration top modules:
+Architecture                  FDCE_Xilinx(FDCE_Xilinx)
+
+
+---------------------------------------------------------------------------------------------
+Entity      | Architecture | Library | Info | Compiler Version         | Compilation Options
+---------------------------------------------------------------------------------------------
+FDCE_Xilinx | FDCE_Xilinx  | FDCE    |      | 9.1.2354.4209  (Windows) | -O3
+FDCE        | fdce_v       | unisim  |      | 9.1.2354.4209  (Windows) | 
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package               | Library | Info | Compiler Version         | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                   | std     |      |                          | <unavailable>
+TEXTIO                     | std     |      | 9.1.2354.4209  (Windows) |  -2008
+std_logic_1164             | ieee    |      | 9.1.2354.4209  (Windows) |  -2008
+VCOMPONENTS                | unisim  |      | 9.1.2354.4209  (Windows) | 
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                    | Comment
+---------------------------------------------------------------------------------------------
+FDCE                       | None
+ieee                       | Standard IEEE packages library
+std                        | Standard VHDL library
+unisim                     | XILINX ISE 13.3, UNISIM VHDL LIBRARY
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+FDCE_Xilinx FDCE_Xilinx FDCE_Xilinx
+
+
+The performance of simulation is reduced. Version Student Edition

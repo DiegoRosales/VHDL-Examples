@@ -1,0 +1,36 @@
+timestamp=1381099424020
+
+[fdce]
+A/fdce=A/FDCE 21|./src/FDCE.vhd|10|1*0
+BinI32/fdce=3*0
+I=0*498
+I/fdce=I/FDCE 0*931
+M=11|0|v98|1381098614880|./src/FDCE.vhd|0*207*0xe683f10fe124d9be69f811b157a6f485763fe389|0*429*0xab32bc1a2daf049573e14469f634e0e6
+M/fdce=M/FDCE 21|0|v98|1381098614882|./src/FDCE.vhd|0*596*0xde27f737374075320e1bfae0bc743261e5242c68|0*854*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/FDCE.vhd|4
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/fdce=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[fdce_xilinx]
+A/fdce_xilinx=A/FDCE_Xilinx 21|./src/FDCE_Xilinx.vhd|15|1*1422
+I=0*1591
+I/fdce_xilinx=I/FDCE_Xilinx 0*2096
+M=11|0|v98|1381099424010|./src/FDCE_Xilinx.vhd|0*1240*0x73a3480f0c5cde1cc819c539db876f2a44d55335|0*1508*0xab32bc1a2daf049573e14469f634e0e6
+M/fdce_xilinx=M/FDCE_Xilinx 21|0|v98|1381099424012|./src/FDCE_Xilinx.vhd|0*1760*0x96f48ad6bc8b9118a27656574ebe5a7176fd38a1|0*1998*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/FDCE_Xilinx.vhd|7
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/fdce_xilinx=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=7
+Version=73
+
+[~MFT]
+0=13|0FDCE.mgf|2096|0
+1=1|1FDCE.mgf|1422|0
+3=0|3FDCE.mgf|0|0
+
+[~U]
+fdce=FDCE 11|0*0|
+fdce_xilinx=FDCE_Xilinx 11|0*1034|
+

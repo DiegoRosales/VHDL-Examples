@@ -1,0 +1,53 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=FDCE
+
+[Library]
+FDCE=.\FDCE.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+FDCE=.
+Active_lib=
+
+[Files]
+/FDCE.vhd=-1
+/FDCE_Xilinx.vhd=-1
+/FDCE_Xilinx.awc=-1
+
+[Files.Data]
+.\src\FDCE.vhd=VHDL Source Code
+.\src\FDCE_Xilinx.vhd=VHDL Source Code
+.\src\FDCE_Xilinx.awc=Accelerated Waveform Configuration
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=fdce|FDCE|0 fdce_xilinx|FDCE_Xilinx|0 
+ShowHide=ShowTopLevel
+Selected=
